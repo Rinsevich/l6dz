@@ -1,0 +1,26 @@
+.con {
+    width: 200px;
+}
+.p::first-letter {
+    color: red;
+}
+.p1::first-line {
+    color: red;
+}
+.p2::selection {
+    background: green;
+}
+.p3::before {
+    content: "Начало: ";
+    color: red;
+}
+.p3::after {
+    content: " :конец";
+    color: green;
+}
+li:nth-last-child(-n + 1) {
+    color: red;
+}
+li:nth-child(-n + 1) {
+    color: green;
+}
